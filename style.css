@@ -89,6 +89,10 @@ section.title{
     align-items: center;
 }
 
+.title__profile{
+    border-radius: 100%;
+}
+
 .title__bio{
     font-size: 4vw;
 }
