@@ -1,4 +1,4 @@
 # Challenge ONE | Front End -  Portafolio
 
-### Curriculim contruido a partir del Challenge Portafolio
+### Curriculum construido a partir del Challenge Portafolio de Alura ONE.
 
