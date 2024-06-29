@@ -308,17 +308,7 @@ h2.experience__section__title {
     margin-top: 10rem;
 }
 
-.experience__box{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1250px;
-    margin: auto;
-    justify-content: space-around;   
-    align-items: center;
-    margin-bottom: 5rem;
-}
-
-.experience__box__reverse{
+.experience__box,.experience__box__reverse{
     display: flex;
     max-width: 1250px;
     margin: auto;
@@ -327,7 +317,11 @@ h2.experience__section__title {
     margin-bottom: 5rem;
     flex-direction: row-reverse;
 }
-
+.experience__info{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
 .experience__title{
     font-size: 2.5vw;
 }
@@ -346,11 +340,16 @@ h2.experience__section__title {
 
 .experiencia__botao--repo{
     color: #2D4D32;
+    cursor: pointer;
 }
 
 .experience__botao--demo{
     background-color: #5B9A64;
     color: white;
+    cursor: pointer;
+}
+.experience__botao--demo:hover{
+    background-color: #4c8655;
 }
 
 /*Contacto*/
@@ -506,7 +505,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 /*Experiencia Profesional*/
 
-    .experience__box__reverse{
+    .experience__box__reverse, .experience__box{
         display: flex;
         flex-wrap: wrap;
     }
@@ -515,8 +514,9 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
     .experience__title,.experience__text, .experience__description{
         text-align: center;
+        display: inline-flex;
+        gap: 1rem;
     }
-
     /*Contacto*/
     section.formcontato {
         margin-left: 1rem;
