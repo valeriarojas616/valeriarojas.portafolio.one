@@ -355,6 +355,7 @@ h2.experience__section__title {
 /*Contacto*/
 
 section.formcontato{
+    display: none;
     max-width: 1250px;
     margin: auto;
 }
